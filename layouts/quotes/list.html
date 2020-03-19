@@ -1,0 +1,10 @@
+{{ define "main" }}
+{{ range .Site.Data.quotes }}
+<p>
+    <blockquote>
+        <p>{{ .quote | markdownify }}</p>
+        <span class="author"><i>{{ .cite }}</i></span>
+    </blockquote>
+</p>
+{{ end }}
+{{ end }}

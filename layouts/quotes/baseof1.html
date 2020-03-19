@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&display=swap" rel="stylesheet">
+    <style>
+        blockquote { background-color: #ffeeff; }
+        span {
+            font-family: Courgette;
+            font-weight: bold;
+            font-size: smaller;
+        }
+
+        cite {
+            font-family: "Dancing Script";
+        }
+    </style>
+    <title>My KB</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <div id="cats">
+                    {{ block "sections" . }}
+                    <h2>Sections</h2>
+                    <ul>
+                        {{ range .Site.Sections }}
+                        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                </div>
+            </td>
+            <td rowspan="2">
+                <div id="main">
+                    {{ block "main" . }}
+
+                    {{ end }}
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="tags">
+                    {{ block "tags" . }}
+                    <h2>Tags</h2>
+                    <ul>
+                        {{ range .Site.Taxonomies.tags }}
+                        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
