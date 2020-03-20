@@ -1,6 +1,7 @@
-baseURL = ""
+baseURL = "https://jmutawa.github.io/kb"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Jalal's Commonplace site"
+publishDir = "docs"
 
 [markup.goldmark.renderer]
 unsafe= true
