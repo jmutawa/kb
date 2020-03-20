@@ -1,3 +1,7 @@
+.arabic {
+    font-family: Amiri;
+}
+
 .nav {
     background: #eee;
     padding: 10px;
@@ -12,13 +16,17 @@
 }
 
 .nav ul li {
-   display: inline;
-   margin: 5px;
+    display: inline;
+    margin: 5px;
 }
 
 .nav a {
     text-decoration-style: dashed;
     color: #333;
+}
+
+.content ul {
+    list-style: none;
 }
 
 * {
@@ -48,7 +56,35 @@ html {
         text-align: left;
         box-shadow: 1px 1px 1px #999, 2px 2px 1px #999, 3px 3px 1px #999;
         transition-duration: 0.3s;
-    }    
+    }
+
+    div.content {
+        width: 50%;
+        position: relative;
+        display: inline-block;
+        background: #eee;
+        padding: 10px;
+        border-radius: 10px;
+        font-family: 'Bitter', serif;
+        color: #333;
+        text-align: center;
+        box-shadow: 1px 1px 1px #999, 2px 2px 1px #999, 3px 3px 1px #999;
+        transition-duration: 0.3s;
+    }
+
+    div.toc {
+        width: 10%;
+        position: relative;
+        display: inline-block;
+        background: #eee;
+        padding: 10px;
+        border-radius: 10px;
+        font-family: 'Bitter', serif;
+        color: #333;
+        text-align: center;
+        box-shadow: 1px 1px 1px #999, 2px 2px 1px #999, 3px 3px 1px #999;
+        transition-duration: 0.3s;
+    }
 }
 
 blockquote {
@@ -60,6 +96,19 @@ blockquote {
     font-family: 'Bitter', serif;
     color: #333;
     text-align: left;
+    box-shadow: 1px 1px 1px #999, 2px 2px 1px #999, 3px 3px 1px #999;
+    transition-duration: 0.3s;
+}
+
+div.content {
+    position: relative;
+    display: inline-block;
+    background: #eee;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Bitter', serif;
+    color: #333;
+    text-align: center;
     box-shadow: 1px 1px 1px #999, 2px 2px 1px #999, 3px 3px 1px #999;
     transition-duration: 0.3s;
 }
