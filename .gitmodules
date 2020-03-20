@@ -1,7 +1,0 @@
-[submodule "themes/ananke"]
-	path = themes/ananke
-	url = https://github.com/budparr/gohugo-theme-ananke.git
-[submodule "docs"]
-	path = docs
-	url = https://github.com/jmutawa/jmutawa.github.io.git
-	branch = master

@@ -1,7 +1,9 @@
 {{ define "main" }}
-<ul>
-  {{ range .Pages }}
-  <li>{{ .Content }}</li>
-  {{ end }}
-</ul>
+<div class="content">
+  <ul>
+    {{ range .Pages }}
+    <li><a href={{ .Page.Permalink}}>{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+</div>
 {{ end }}

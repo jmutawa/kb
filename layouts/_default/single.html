@@ -1,5 +1,23 @@
 {{ define "main" }}
+{{ $dir := .Params.dir }}
 
-{{.Content}}
+{{ if not $dir }}
+<div class="content">
+    {{ .TableOfContents }}
+</div>
+{{ end }}
 
+<div class="content" 
+    {{ if $dir }} dir={{ $dir }} {{ end }}
+    style="text-align: {{ if eq $dir `rtl` }} right {{else}} left {{end}};">
+    <div {{ if $dir }} class="arabic" {{ end }}>
+        {{.Content}}
+    </div>
+</div>
+
+{{ if $dir }}
+<div class="toc" dir="rtl">
+    {{ .TableOfContents }}
+</div>
+{{ end }}
 {{ end }}
