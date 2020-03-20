@@ -1,7 +1,6 @@
 baseURL = "https://jmutawa.github.io/kb"
 languageCode = "en-us"
 title = "Jalal's Commonplace site"
-publishDir = "docs"
 
 [markup.goldmark.renderer]
 unsafe= true
