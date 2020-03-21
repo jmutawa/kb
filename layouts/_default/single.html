@@ -1,23 +1,23 @@
 {{ define "main" }}
 {{ $dir := .Params.dir }}
 
-{{ if not $dir }}
-<div class="content">
-    {{ .TableOfContents }}
-</div>
-{{ end }}
-
-<div class="content" 
-    {{ if $dir }} dir={{ $dir }} {{ end }}
+<div class="content" {{ if $dir }} dir={{ $dir }} {{ end }}
     style="text-align: {{ if eq $dir `rtl` }} right {{else}} left {{end}};">
     <div {{ if $dir }} class="arabic" {{ end }}>
+        <h2>{{ .Title }}</h2>
         {{.Content}}
+        {{ if .Params.sourceUrl }}
+        <br /><br />
+        <h4 class="source"><a href="{{ .Params.sourceUrl }}" target="_blank">
+            {{ if $dir }}
+            المصدر
+            {{ else }}
+            Source
+            {{ end }}
+        </a></h4>
+
+        {{ end }}
     </div>
 </div>
 
-{{ if $dir }}
-<div class="toc" dir="rtl">
-    {{ .TableOfContents }}
-</div>
-{{ end }}
 {{ end }}

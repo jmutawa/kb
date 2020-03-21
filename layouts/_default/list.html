@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="content">
-  <ul>
+  <ul style="list-style: none;">
     {{ range .Pages }}
     <li><a href={{ .Page.Permalink}}>{{ .Title }}</a></li>
     {{ end }}
