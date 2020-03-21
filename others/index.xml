@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jalal&#39;s Commonplace site</title>
-    <link>https://jmutawa.github.io/kb/</link>
-    <description>Recent content on Jalal&#39;s Commonplace site</description>
+    <title>Others on Jalal&#39;s Commonplace site</title>
+    <link>https://jmutawa.github.io/kb/others/</link>
+    <description>Recent content in Others on Jalal&#39;s Commonplace site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Mar 2020 16:33:08 +0300</lastBuildDate>
     
-	<atom:link href="https://jmutawa.github.io/kb/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jmutawa.github.io/kb/others/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -32,33 +32,6 @@ Human memory holds four things at once:
 1. Triage: Takes thoughts from your mind and collects them to decide later, things like calendar events, taska, search, problem.
 2. Processing: for larger tasks that require breakdown, things like brainstorming, research, making outline, reading a book, tracking some thing.
 3. Action Center: Prioritize tasks, delegate, schedule a time to execute a task.</description>
-    </item>
-    
-    <item>
-      <title>1</title>
-      <link>https://jmutawa.github.io/kb/books/1/</link>
-      <pubDate>Fri, 20 Mar 2020 11:30:51 +0300</pubDate>
-      
-      <guid>https://jmutawa.github.io/kb/books/1/</guid>
-      <description>Book 1!! Chapter 1 fdsajncksdjncksjdc sdckljsndckljsdc</description>
-    </item>
-    
-    <item>
-      <title>تهذيب بلوغ المرام</title>
-      <link>https://jmutawa.github.io/kb/books/%D8%AA%D9%87%D8%B0%D9%8A%D8%A8-%D8%A8%D9%84%D9%88%D8%BA-%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D9%85/</link>
-      <pubDate>Fri, 20 Mar 2020 11:26:53 +0300</pubDate>
-      
-      <guid>https://jmutawa.github.io/kb/books/%D8%AA%D9%87%D8%B0%D9%8A%D8%A8-%D8%A8%D9%84%D9%88%D8%BA-%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D9%85/</guid>
-      <description>الطهارة الماء  البحر: طهور ماؤه، حل ميتته اﻷصل الطهارة، إلا بتغيّر لونه أو ريحه أو طعمه بنجاسة تحدث فيه إذا كان قلتين لم يحمل الخبث / لم ينجس الماء الدائم: لا يغتسل فيه الجنب، ولا يُبال فيه ثم يُتوضّأ منه / فيه. والماء لا يجنب  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://jmutawa.github.io/kb/quotes/1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jmutawa.github.io/kb/quotes/1/</guid>
-      <description></description>
     </item>
     
   </channel>
